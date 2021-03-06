@@ -46,7 +46,7 @@ $(document).ready(function () {
             slide: refreshSwatch,
             change: refreshSwatch
         });
-        console.log("refresh")
+        $("#select__color").addClass("select")
         $("#red").slider("value", 140);
         $("#green").slider("value", 140);
         $("#blue").slider("value", 140);
